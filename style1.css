@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: 3s;
+}
+
+.t_1 {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phn {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    margin-left: 10px;
+}
+
+.add {
+
+    width: 20%;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.log img {
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.t_2 {
+    display: flex;
+    height: 40px;
+}
+
+.social {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+i {
+    color: #ffc139;
+}
+
+.social svg {
+    padding: 0px 7px;
+    cursor: pointer;
+}
+.social h1:hover{
+    color: #ffc139;
+    cursor: pointer;
+}
+
+.s-2 {
+    display: flex;
+    width: 10%;
+    justify-content: flex-end;
+}
+
+.s-2 h1 {
+    cursor: pointer;
+    padding: 0px 7px;
+    margin-left: 5px;
+}
+.s-2 h1:hover{
+    color: #ffc139;
+    cursor: pointer;
+}
+
+.nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+}
+.nav ul li:hover{
+    color: #ffc139;
+    text-decoration: overline;
+    transition: 0.4s;
+}
+
+.nav ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 10px;
+}
+.nav ul li a:hover{
+    color: #ffc139;
+    text-decoration: overline;
+    transition: 0.4s;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding: 0px 10px;
+}
+
+.blank {
+    width: 20%;
+}
+
+.show {
+    height: 90vh;
+    /* background-image:url("main img.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 0%;
+}
+
+.show img {
+    width: 100%;
+    box-sizing: border-box;
+    height: 90vh;
+}
+
+.show_1 {
+    height: 80vh;
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.l-1 {
+    width: 50%;
+
+}
+
+.l-1 img {
+    margin-left: 30px;
+    border-radius: 16px;
+    box-shadow: 5px 15px 18px rgb(54, 85, 87);
+    width: 80%;
+    box-sizing: border-box;
+    height: 80vh;
+    cursor: pointer;
+}
+
+.l-2 {
+    width: 50%;
+    text-align: center;
+}
+
+.l-2 h1 {
+    margin-top: 20px;
+}
+
+.l-2 h3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.str {
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc139;
+}
+
+.l-2>p {
+    text-align: center;
+    margin: 15%;
+}
+
+.icn {
+    cursor: pointer;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+
+.icn img {
+    height: 70px;
+    width: 20%;
+}
+
+.offer {
+    /* border: 2px solid rebeccapurple; */
+    height: 90vh;
+    margin-top: 40px;
+}
+
+.offer img {
+    margin-left: 40px;
+    text-align: center;
+    width: 25vw;
+    height: 80vh;
+}
+
+#im1 {
+    width: 33vw;
+}
+
+.products {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.products>div {
+    padding: 4px;
+}
+
+.brgr {
+    width: 20%;
+    height: 150px;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pizza {
+    width: 20%;
+    height: 150px;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.drinks {
+    width: 20%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.pasta {
+    width: 20%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.soup {
+    width: 20%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.sushi {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 150px;
+}
